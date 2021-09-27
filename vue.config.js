@@ -6,4 +6,7 @@ module.exports = {
 module.exports = {
   publicPath: '/Starbucks-Page/',
   outputDir: 'docs'
+
 }
+
+

@@ -1,4 +1,5 @@
 <template>
+
   <section class="BannerBG">
     <div>
     <span class="BannerSlogan"><img src="../assets/img/main/2021_autumn_slogan.png" alt="IT'S BLACK GLAZED LATTE SEASON" ></span>
@@ -10,10 +11,16 @@
     <span class="SloganBtn"><a href="https://www.starbucks.co.kr/whats_new/campaign_view.do?pro_seq=1879">자세히보기</a></span>
     </div>
   </section>
+
+  <div>
+    Banner
+  </div>
+
 </template>
 
 <script>
 export default {
+
 name:"Banner",
 data(){
   return{
@@ -27,5 +34,7 @@ props:{
 </script>
 
 <style>
+
 @import "../assets/css/banner.css";
+
 </style>

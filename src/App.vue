@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <v-main>
+
       <div class="FloatBanner"><img src="./assets/img/main/hyundaicard.png" alt="현대카드 이벤트"></div>
+
       <TopMenu />
       <Banner />
       <Notice />
@@ -50,4 +52,4 @@ export default {
   width:140px;
   z-index: 100;
 }
-</style>
+

@@ -4,6 +4,6 @@ module.exports = {
   ]
 },
 module.exports = {
-  publicPath: '/vue_cli_todolist/',
+  publicPath: '/Starbucks-Page/',
   outputDir: 'docs'
 }

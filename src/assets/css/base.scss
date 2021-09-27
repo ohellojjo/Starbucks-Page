@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600&display=swap");
+//font-family: 'Noto Sans KR', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+//font-family: 'Roboto', sans-serif;
+@mixin base {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+@mixin ulol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@mixin sizes($w, $h, $c) {
+  width: $w;
+  height: $h;
+  background-color: $c;
+}
+@mixin flexs($d, $w, $j, $a) {
+  display: flex;
+  flex-direction: $d;
+  flex-wrap: $w;
+  justify-content: $j;
+  align-items: $a;
+  align-content: $a;
+}
+@mixin font_roboto($s, $a, $w) {
+  font-family: "Roboto", sans-serif;
+  font-size: $s;
+  text-align: $a;
+  font-weight: $w;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  @include base;
+}
+ul,
+ol {
+  @include ulol;
+}

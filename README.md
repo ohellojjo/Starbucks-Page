@@ -29,7 +29,7 @@
 ### CHECK_LIST
 
 - [ ] TOP_MENU
-- [] BANNER
+- [X] BANNER
 - [ ] PROMO1
 - [ ] PROMO2
 - [ ] PROMO3

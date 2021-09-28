@@ -21,7 +21,7 @@
 
 | Participant | Part               | rate |
 | ------------- | -------------------------- | ---- |
-| ohellojj      | BOTTOM/BANNER/PROMO1/PROMO2| 50%  |
+| ohellojjo      | BOTTOM/BANNER/PROMO1/PROMO2| 50%  |
 | mangosteen977 | INDEXER/TOP_MENU/PROMO3    | 50%  |
 
 ---

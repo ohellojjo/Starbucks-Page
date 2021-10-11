@@ -1,3 +1,20 @@
+
+<template>
+  <div>
+    TopMenu
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
+
 <template>
 
   <div class="TopMenu">ddddddd</div>
@@ -21,5 +38,3 @@ export default {
 
 }
 </script>
-
-
